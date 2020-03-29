@@ -1,8 +1,6 @@
 def key_for_min_value(name_hash)
-
   min_name = nil
   min_value = nil
-
   name_hash.each do |name,value|
     name = min_name if min_name == nil
     value = min_value if min_value == nil
